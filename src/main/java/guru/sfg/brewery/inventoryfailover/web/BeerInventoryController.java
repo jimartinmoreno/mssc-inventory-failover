@@ -12,6 +12,9 @@ import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.UUID;
 
+/**
+ * Rest Controller que devuelve una lista de inventarios en caso de que el servicio de inventario no esté disponible
+ */
 @Slf4j
 @RequiredArgsConstructor
 @RestController
